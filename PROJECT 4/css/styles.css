@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    margin-right: 14rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+.container {
+    padding: 1em;
+}
+
+#blog-list .blog-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+#blog-list .blog-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+#back-btn{
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-weight: bolder;
+}
